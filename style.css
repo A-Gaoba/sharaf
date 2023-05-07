@@ -467,7 +467,9 @@ section .title::after {
 .contact .contact-content .info .sub-title {
   color: #fcbf49;
 }
-
+.contact .contact-content .info .sub-title a{
+  color: #fcbf49;
+}
 .contact .right form .fields {
   display: flex;
 }
@@ -696,11 +698,14 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
+  .home .home-content{
+    color: #fff;
+  }
   .home .home-content .text-2 {
     font-size: 50px;
   }
   .home .home-content .text-3 {
-    font-size: 27px;
+    font-size: 24px;
   }
   .about .about-content .right .text,
   .skills .skills-content .left .text {
